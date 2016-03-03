@@ -1,7 +1,9 @@
 .menu .menu--items .menu--item {
 
 }
-
+.imagine2 {
+  width:100%;
+}
 .menu--items {
   margin: 0;
   padding: 0;
@@ -12,4 +14,21 @@
 .menu--item {
   margin: 10px;
   display: inline-block;
+}
+.my {
+position: relative;
+width:50%;
+float:left;
+}
+
+.imagine2 {
+
+  width: 50%;
+  float:left;
+
+}
+@media screen and (max-width: 640px) {
+    .my {
+        width:100%;
+    }
 }
